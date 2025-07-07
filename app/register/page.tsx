@@ -53,13 +53,16 @@ const Register = async () => {
 
         <button
           type="submit"
-          className="w-full border px-4 py-1 rounded-lg bg-blue-700 text-white font-bold tracking-wide"
+          className="mt-4 w-full border px-4 py-1 rounded-lg bg-blue-700 text-white font-bold tracking-wide"
         >
           Sign up
         </button>
 
         <p>
-          Alredy have an account? <Link href="/login">Login</Link>
+          Alredy have an account?{" "}
+          <Link href="/login" className="font-semibold tracking-wide">
+            Login
+          </Link>
         </p>
       </form>
     </div>
